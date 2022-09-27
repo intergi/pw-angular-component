@@ -11,6 +11,8 @@ Run `ng generate component component-name --project pw-angular-component` to gen
 
 Run `ng build pw-angular-component` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+`ng build pw-angular-component --configuration production`
+
 ## Publishing
 
 After building your library with `ng build pw-angular-component`, go to the dist folder `cd dist/pw-angular-component` and run `npm publish`.
