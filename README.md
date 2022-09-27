@@ -1,10 +1,46 @@
-# pw-angular-component
+# Playwire Angular Ramp Component
 
 Playwire's Angular Component 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
-## Development server (Demo App)
+## Angular Ramp Component NPM package
+
+https://www.npmjs.com/package/@playwire/pw-angular-component
+
+## Install the component in an Angular App
+
+`npm i --save @playwire/pw-angular-component`
+
+## Use the component in an Angular App
+
+In the main app.module.ts:
+```
+import { AppComponent } from './app.component';
+import { RampModule, CoreModule } from '@playwire/pw-angular-component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    BrowserModule,
+    RampModule, // ramp
+    CoreModule.forRoot() // ramp
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
+In the app.component.html
+```
+  <ramp publisherId="1016948" id="63673"></ramp>
+  <ramp-unit></ramp-unit>
+```
+
+## Playwire Demo App
 
 In the terminal `cd demos/my-angular-app/`
 
