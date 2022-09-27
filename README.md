@@ -61,9 +61,9 @@ Then navigate to `https://brickset.com:4000/`
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 
-### Build
+### Build the component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `build pw-angular-component --configuration production` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 
 ### Running unit tests
