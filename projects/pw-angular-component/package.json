@@ -1,6 +1,6 @@
 {
   "name": "@playwire/pw-angular-component",
-  "version": "1.0.10",
+  "version": "1.0.14",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
