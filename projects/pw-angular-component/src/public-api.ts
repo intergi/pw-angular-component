@@ -16,4 +16,7 @@ export * from './lib/my-lib.module';
 export * from './lib/ramp/ramp.component';
 export * from './lib/ramp/ramp.module';
 
+export * from './lib/ramp-unit/ramp-unit.component';
+export * from './lib/ramp-unit/ramp-unit.module';
+
 export * from './lib/core/core.module';

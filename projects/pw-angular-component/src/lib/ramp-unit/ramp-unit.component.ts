@@ -18,10 +18,14 @@ export class RampUnitComponent implements OnInit {
           type: 'leaderboard_atf',
           selectorId: 'leaderboard_atf'
         }
-      ]).catch((e) => {
+      ]).catch((e: any) => {
+
         console.warn(e);
+
       }).finally(() => {
+
         window.ramp.displayUnits();
+
       });
     });
   }

@@ -63,7 +63,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ### Build the component
 
-Run `build pw-angular-component --configuration production` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build pw-angular-component --configuration production` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+
+### Publish the component to NPM registry
+
+In `dist/pw-angular-component` run `npm login` then `npm publish`.
 
 
 ### Running unit tests

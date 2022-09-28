@@ -17,9 +17,6 @@ export class RampComponent implements OnInit {
 
   ngOnInit(): void {
 
-    console.log(this.publisherId);
-    console.log(window);
-
     window.ramp = window.ramp || {};
     window.ramp.que = window.ramp.que || [];
     window.ramp.passiveMode = true;
