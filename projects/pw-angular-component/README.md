@@ -35,7 +35,7 @@ export class AppModule { }
 In the app.component.html
 ```
   <ramp publisherId="1016948" id="63673"></ramp>
-  <ramp-unit></ramp-unit>
+  <ramp-unit type="leaderboard_atf" selectorId="leaderboard_atf" cssClass="pw-tag"></ramp-unit>
 ```
 
 
